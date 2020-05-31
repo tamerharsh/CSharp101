@@ -66,19 +66,6 @@ namespace evaluategrade
             System.Console.WriteLine("\nAvg:" + avg.ToString());
         }
 
-
-        void Example1()
-        {
-            System.Console.WriteLine("Hello World!");
-
-            var name = System.Console.ReadLine();
-            System.Console.WriteLine("The  entered text is " + name.ToString());
-
-            var price = 400;
-            var share = price / 8;
-            System.Console.WriteLine("The share price is " + share.ToString());
-        }
-
      
         static void Main(string[] args)
         {
