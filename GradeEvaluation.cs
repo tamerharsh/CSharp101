@@ -5,8 +5,8 @@ namespace evaluategrade
 {
     class Program
     {
-		//Get  input data.
-		static double[] GradeInput()
+        //Get input data.
+        static double[] GradeInput()
         { 
             System.Console.WriteLine("Enter number of records/grades.");
             int NumberOfRecords=Convert.ToInt32(Console.ReadLine());
@@ -44,7 +44,7 @@ namespace evaluategrade
             return max;
         }
 
-        //CalculateMin
+        //CalculateMin.
         static  double CalculateMin(double[] Grades)
         {
             double min = Grades[0];
@@ -66,7 +66,7 @@ namespace evaluategrade
             System.Console.WriteLine("\nAvg:" + avg.ToString());
         }
 
-     
+	//MainFunction.
         static void Main(string[] args)
         {
             Console.WriteLine("--EvaluateGrade--\n");
